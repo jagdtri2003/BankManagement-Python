@@ -38,7 +38,7 @@ transactions table to store transaction history:
 
 Fields: transaction_id, transaction_date, account_number, description, amount
 
-##Getting Started
+## Getting Started
 1.Clone or download this repository to your local machine.
 
 2.Ensure that your MySQL server is running. You can use tools like XAMPP, MAMP, or a local MySQL server.
@@ -55,7 +55,7 @@ connection = mysql.connector.connect(
 5.Run the Python script:
 python bank_management_system.py
 
-##Usage
+## Usage
 To create a new account, select option 1 and provide the account details.
 To deposit funds into an account, select option 2 and enter the account number and deposit amount.
 To withdraw funds from an account, select option 3 and enter the account number and withdrawal amount.
@@ -64,8 +64,8 @@ To display account details, select option 5 and enter the account number.
 To view the last 5 transactions for an account, select option 6 and input the account number.
 To exit the system, select option 7.
 
-##Contributing
+## Contributing
 Contributions to the project are welcome. You can fork the repository, make your improvements, and create a pull request.
 
-##License
+## License
 This project is open-source and available under the MIT License.
